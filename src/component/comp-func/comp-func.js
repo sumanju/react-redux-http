@@ -2,6 +2,7 @@ import  React, { Component }  from  'react'
 import  { connect } from 'react-redux'
 import buyCake from '../../redux/cake/cakeAction'
 import buyCream from '../../redux/cream/creamAction'
+import  './comp-func.css'
 
 class CompFunc extends Component {
 
@@ -15,7 +16,7 @@ class CompFunc extends Component {
 
   render()  {
     return (
-      <div>
+      <div  className="border">
         <h2>Number of Cakes { this.props.user.cake.numOfCake }</h2>
         <button onClick={()=> this.show()}>buy cake</button>
       </div>
