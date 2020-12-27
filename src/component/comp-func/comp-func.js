@@ -6,10 +6,6 @@ import  './comp-func.css'
 
 class CompFunc extends Component {
 
-  constructor() {
-    super()
-  }
-
   show()  {
     this.props.dispatchCake('suman mandal')
   }
@@ -17,7 +13,7 @@ class CompFunc extends Component {
   render()  {
     return (
       <div  className="border">
-        <h2>Number of Cakes { this.props.user.cake.numOfCake }</h2>
+        <h2>React Reducer Exmaples { this.props.user.cake.numOfCake }</h2>
         <button onClick={()=> this.show()}>buy cake</button>
       </div>
     )

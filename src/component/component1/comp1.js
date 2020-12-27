@@ -32,6 +32,7 @@ class Comp1 extends Component {
   render()  {
     return (
       <React.Fragment>
+        <h2> http Request </h2>
         <div  className="align">
           <span> Login Form </span>
           <input  className="text-box" 
