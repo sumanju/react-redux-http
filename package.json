@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp build ../ -r",
+    "build": "react-scripts build && cp build/ ..typescript-node-server/src/views/ -r",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
